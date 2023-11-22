@@ -1,4 +1,4 @@
-# ~~🍪 cookie-clicker 🍪~~ **NO** [🍩 Donut-clicker 🍩](https://marinevh.github.io/cookie-clicker/ "Donut-Clicker") 🤤
+# ~~🍪 cookie-clicker 🍪~~ **NO** [🍩 Donut-clicker 🍩](https://cebe0210.github.io/cookie-clicker/ "Donut-Clicker") 🤤
 
 ![desktop](img/desktop.png)
 
