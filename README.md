@@ -2,13 +2,9 @@
 
 ![desktop](img/desktop.png)
 
-## _Version test :_
-
-https://github.com/MarineVH/cookie-clicker-test
-
 ## _Version live :_
 
-https://marinevh.github.io/cookie-clicker/
+https://cebe0210.github.io/cookie-clicker/
 
 ## _Contexte :_
 
@@ -16,7 +12,7 @@ Ce projet de **Coockie Clicker** est réalisé dans le cadre de la formation de 
 
 ## _Auteur :_
 
-- ***[Marine](https://github.com/MarineVH "GitHub")*** 
+- ***[Cédric](https://github.com/cebe0210 "GitHub")*** 
 
 ## _Mais qu'est-ce qu'un **cookie-clicker**?_
 
