@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" type="image/webP" href="img/Donut-icon.webp">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="game donut-clicker">
+  <!--Désactivation clic droit-->
+  <!-- <script type="text/javascript">
+    document.oncontextmenu = function () {
+      return false;
+    } -->
+    <title>Donut Clicker</title>
+  </head>
+  <body>
+    <div id="app">
+      <button id="myBtn">Instructions</button>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p id="manuel-titre">🍩 Bienvenue sur Donut-Clicker 🍩</p>
+          <p>Gagnez un maximum de points en cliquant sur le <b>DONUT</b></p>
+          <p>Utiliser le Multiplicateur afin d'augmenter plus rapidement votre score</p>
+          <p>Le clic-auto permet de laisser tourner le jeux en arrière-plan et emmagasiner des points</p>
+          <p>Les bonus augmentent significativement votre score</p>
+        </div>
+      </div>
+
+      <button id="reset">Reset</button>
+
+      <div class="container">
+        <header>
+          <h1> Donut Clicker</h1>
+        </header>
+
+        <p id="result">Votre score est de : <span id="score">0</span></p>
+
+        <div id="img-resp">
+          <img id="donut" src="img/Donut_DALL_E_.webp" alt="Donut" fetchpriority="high">
+        </div>
+
+        <div id="setup">
+          <button type="button" id="btn-multi" aria-label="Multiplicateur">Multiplicateur : 
+            <span id="prix-multi">0</span></button>
+          <p id="multi" class="multi">0</p>
+          <button type="button" id="btn-bonus" aria-label="Bonus"><span id="bonus"> Bonus : </span>
+            <span id="timer">0</span></button>
+          <button type="button" id="btn-auto" aria-label="auto-clic">Clic-auto : 
+            <span id="clic-auto">0</span></button>
+          <p id="auto" class="auto">0</p>
+    
+
+          <!--Musique-->
+          <audio id="music" autoplay loop  aria-label="Lecteur audio" preload="none">
+            <source src="gnork-party-improved-171719.mp3" type="audio/mpeg">
+          </audio>
+          <!--<button id="btn-stop" onclick="stopMusic()" aria-label="Arrêter la musique">Arrêter la musique</button>-->
+          <input id="volumeControl" type="range" min="0" max="1" step="0.01" value="0.6" aria-label="Contrôle du volume" style="max-width: 100px;">
+        </div>
+
+        <div id="cookieModal" class="modal">
+          <div class="modal-content">
+            <h2>Politique de confidentialité et cookies</h2>
+            <p>Nous utilisons des cookies pour améliorer votre expérience sur notre site. En continuant à naviguer, vous acceptez notre utilisation des cookies. Veuillez consulter notre <a href="/politique-de-confidentialite">politique de confidentialité</a> pour plus d'informations.</p>
+            <button id="acceptButton">Accepter</button>
+            <button id="cancelButton">Annuler</button>
+          </div>
+        </div>
+
+        <footer>
+          <hr>
+          <p id="name">By <a href="https://github.com/MarineVH" title="GitHub">Marine</a>, <a
+          href="https://github.com/AudriusGrebliunas" title="GitHub">Audrius</a>, <a href="https://github.com/cebe0210"
+          title="GitHub">Cédric</a>.</p>
+          <p>Visualisez notre code sur GitHub :</p>
+
+          <div id="code">
+            <a href="https://github.com/MarineVH/cookie-clicker/blob/main/index.html" title="HTML"><img src="img/HTML.svg" alt="html"></a> 
+            <a href="https://github.com/MarineVH/cookie-clicker/blob/main/style.css" title="CSS"><img src="img/CSS.svg" alt="CSS"></a>
+            <a href="https://github.com/MarineVH/cookie-clicker/blob/main/main.js" title="JavaScript"><img src="img/JAVASCRIPT.svg" alt="JavaScript"></a>
+          </div>
+
+        </footer>
+
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
